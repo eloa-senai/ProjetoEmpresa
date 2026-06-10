@@ -2,75 +2,91 @@
 <html lang="pt-BR">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Gataria Gourmet - Contato</title>
-  <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gataria Gourmet - Contato</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Iosevka+Charon:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
+    <header class="topo">
+        <div class="marca">
+            <span class="marca-icone" aria-hidden="true">GG</span>
+            <div>
+                <h1>Gataria Gourmet</h1>
+                <p>Confeitaria artesanal com identidade felina</p>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="contato.html" class="ativo">Contato</a></li>
+                <li><a href="questionario.html">Questionário</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <header>
-    <h1>Gataria Gourmet</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html" class="ativo">Início</a></li>
-        <li><a href="sobre.html">Sobre</a></li>
-        <li><a href="produtos.html">Produtos</a></li>
-        <li><a href="contato.html">Contato</a></li>
-        <li><a href="questionario.html">Questionário</a></li>
-      </ul>
-    </nav>
-  </header>
+    <main class="pagina-contato">
+        <section class="bloco-destaque">
+            <span class="badge">Fale Conosco</span>
+            <h2>Conte com a Gataria Gourmet para encomendas, presentes e momentos especiais.</h2>
+            <p>
+                Compartilhe sua ideia, a data do evento e os sabores que deseja servir. Respondemos com carinho e
+                sugerimos a melhor combinação para cada ocasião.
+            </p>
+        </section>
 
-  <main>
+        <section class="contato-layout" aria-label="Contato da empresa">
+            <article class="cartao-formulario">
+                <h3>Solicite seu Orçamento</h3>
+                <form class="form-contato">
+                    <label>
+                        Nome
+                        <input type="text" name="nome" placeholder="Nome" />
+                    </label>
+                    <label>
+                        E-mail
+                        <input type="email" name="email" placeholder="E-mail" />
+                    </label>
+                    <label>
+                        Telefone
+                        <input type="tel" name="telefone" placeholder="Telefone" />
+                    </label>
+                    <label>
+                        Assunto
+                        <input type="text" name="assunto" placeholder="Assunto" />
+                    </label>
+                    <label>
+                        Mensagem
+                        <textarea name="mensagem" rows="5" placeholder="Mensagem"></textarea>
+                    </label>
+                    <button type="submit" class="btn-enviar">Enviar</button>
+                </form>
+            </article>
 
-    <aside class="secao-lateral">
-      <h2>Informações</h2>
+            <aside class="cartao-informacoes">
+                <h3>Atendimento e Entrega</h3>
+                <ul class="lista-contato">
+                    <li><strong>Pedidos</strong><span>Encomendas para festas, presentes e datas especiais</span></li>
+                    <li><strong>Atendimento</strong><span>Seg a Sex, das 8h às 18h</span></li>
+                    <li><strong>Entregas</strong><span>Bariri - SP e região</span></li>
+                    <li><strong>Telefone</strong><span>(14) 99999-0000</span></li>
+                    <li><strong>E-mail</strong><span>contato@gatariagourmet.com</span></li>
+                </ul>
+            </aside>
+        </section>
+    </main>
 
-      <article>
-        <h3>📍 Endereço</h3>
-        <p>Rua das Flores, 245 — Centro<br />Bariri, SP — CEP 17200-000</p>
-      </article>
-
-      <article>
-        <h3>🕐 Horário de Atendimento</h3>
-        <p>
-          Segunda a Sexta: 8h às 18h<br />
-          Sábado: 8h às 12h
-        </p>
-      </article>
-
-      <article>
-        <h3>📞 Contato Direto</h3>
-        <p>
-          WhatsApp: (14) 99999-0000<br />
-          E-mail: contato@nutri.saude.com.br
-        </p>
-      </article>
-
-      <div class="info-card mt-16">
-        <h4>🚗 Como chegar</h4>
-        <p>Estacionamento gratuito na rua. A 200m da Praça Central de Bariri.</p>
-      </div>
-    </aside>
-
-
-    <section class="secao-extra">
-      <h2>Redes Sociais</h2>
-      <p>Nos acompanhe para espiar os bastidores e as doçuras do nosso ateliê:</p>
-      <ul class="lista-verde mt-16">
-        <li>Instagram: @gataria.gourmet</li>
-        <li>YouTube: GATARIA GOURMET</li>
-        <li>LinkedIn: GATARIA GOURMET</li>
-      </ul>
-    </section>
-
-  </main>
-
-  <footer>
-    <p>© 2026 — Gataria Gourmet. Todos os direitos reservados.</p>
-  </footer>
+    <footer>
+        <p>Gataria Gourmet • contato@gatariagourmet.com • (14) 99999-0000 • © 2026</p>
+    </footer>
 </body>
 
 </html>

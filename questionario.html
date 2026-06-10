@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gataria Gourmet - Questionário</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Iosevka+Charon:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="topo">
+        <div class="marca">
+            <span class="marca-icone" aria-hidden="true">GG</span>
+            <div>
+                <h1>Gataria Gourmet</h1>
+                <p>Confeitaria artesanal com identidade felina</p>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="questionario.html" class="ativo">Questionário</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="pagina-contato">
+        <section class="bloco-destaque">
+            <span class="badge">Questionário Comercial</span>
+            <h2>Formulário para encomendas e eventos.</h2>
+            <p>
+                Preencha os dados abaixo para orçamento de pedidos sob medida, retiradas e comemorações especiais.
+            </p>
+        </section>
+
+        <section class="contato-layout" aria-label="Formulário de encomendas e eventos">
+            <article class="cartao-formulario">
+                <h3>Dados do Pedido</h3>
+                <form class="form-contato">
+                    <label>
+                        Nome Completo
+                        <input type="text" name="nome_completo" placeholder="Nome completo" />
+                    </label>
+
+                    <label>
+                        WhatsApp de Contato
+                        <input type="tel" name="whatsapp" placeholder="(14) 99999-0000" />
+                    </label>
+
+                    <label>
+                        Data do Evento / Retirada
+                        <input type="date" name="data_evento" />
+                    </label>
+
+                    <label>
+                        Tipo de Comemoração
+                        <select name="tipo_comemoracao">
+                            <option value="">Selecione</option>
+                            <option>Aniversário</option>
+                            <option>Casamento</option>
+                            <option>Chá de bebê</option>
+                            <option>Mimo para mim mesmo</option>
+                            <option>Outro</option>
+                        </select>
+                    </label>
+
+                    <div class="grupo-checkbox">
+                        <span>Linha de Doces Favorita</span>
+                        <label><input type="checkbox" name="linha_doces" value="Linha Veludo" /> Linha Veludo</label>
+                        <label><input type="checkbox" name="linha_doces" value="Sobremesas Nuvem" /> Sobremesas
+                            Nuvem</label>
+                        <label><input type="checkbox" name="linha_doces" value="Caixas de Bombons" /> Caixas de
+                            Bombons</label>
+                    </div>
+
+                    <div class="grupo-radio">
+                        <span>Restrições Alimentares</span>
+                        <label><input type="radio" name="restricoes" value="Nenhuma" checked /> Nenhuma</label>
+                        <label><input type="radio" name="restricoes" value="Sem Lactose" /> Sem Lactose</label>
+                        <label><input type="radio" name="restricoes" value="Sem Açúcar" /> Sem Açúcar</label>
+                    </div>
+
+                    <label>
+                        Observações ou Detalhes Especiais
+                        <textarea name="observacoes" rows="6"
+                            placeholder="Descreva quantidades, sabores, tema ou qualquer detalhe importante"></textarea>
+                    </label>
+
+                    <button type="submit" class="btn-enviar">Enviar</button>
+                </form>
+            </article>
+
+            <aside class="cartao-informacoes">
+                <h3>Base da Empresa</h3>
+                <ul class="lista-contato">
+                    <li><strong>Empresa</strong><span>Gataria Gourmet</span></li>
+                    <li><strong>Cidade</strong><span>Bariri - SP</span></li>
+                    <li><strong>Equipe</strong><span>Sophia Dias e Matheus Eduardo</span></li>
+                    <li><strong>Telefone</strong><span>(14) 99999-0000</span></li>
+                    <li><strong>E-mail</strong><span>contato@gatariagourmet.com</span></li>
+                </ul>
+            </aside>
+        </section>
+    </main>
+
+    <footer>
+        <p>Gataria Gourmet • contato@gatariagourmet.com • (14) 99999-0000 • © 2026</p>
+    </footer>
+</body>
+
+</html>

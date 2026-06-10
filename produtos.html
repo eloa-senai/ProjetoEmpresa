@@ -2,116 +2,95 @@
 <html lang="pt-BR">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Gataria Gourmet - Doces</title>
-  <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gataria Gourmet - Produtos</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Iosevka+Charon:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-
-  <header>
-    <h1>Gataria Gourmet</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html" class="ativo">Início</a></li>
-        <li><a href="sobre.html">Sobre</a></li>
-        <li><a href="produtos.html">Produtos</a></li>
-        <li><a href="contato.html">Contato</a></li>
-        <li><a href="questionario.html">Questionário</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <main>
-    <section class="secao-principal">
-      <h2>Nossos doces</h2>
-      <p class="mt-8">
-        Textura aveludada que derrete na boca, no ritmo de um carinho suave.
-      </p>
-
-      <div class="produtos-grid">
-        <div class="card-produtos">
-          <div class="icone">🍬</div>
-          <h3>Alta Confeitaria</h3>
-          <p>Doces finos e autorais criados com matéria-prima nobre, precisão milimétrica e estética impecável.</p>
+    <header class="topo">
+        <div class="marca">
+            <span class="marca-icone" aria-hidden="true">GG</span>
+            <div>
+                <h1>Gataria Gourmet</h1>
+                <p>Confeitaria artesanal com identidade felina</p>
+            </div>
         </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="produtos.html" class="ativo">Produtos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="questionario.html">Questionário</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        <div class="card-produtos">
-          <div class="icone">🧇</div>
-          <h3>Linha Veludo</h3>
-          <p>Trufas, cones e brownies intensos desenvolvidos para derreter na boca e agradar paladares exigentes.</p>
-        </div>
+    <main class="pagina-produtos">
+        <section class="bloco-destaque">
+            <span class="badge">Vitrine Gourmet</span>
+            <h2>Doces de chocolate preparados para encantar no primeiro olhar e no primeiro pedaço.</h2>
+            <p>
+                Nossa seleção reúne receitas com textura marcante, recheios cremosos e finalização delicada,
+                pensadas para presentear, servir em celebrações ou transformar um momento comum em pausa especial.
+            </p>
+        </section>
 
-        <div class="card-produtos">
-          <div class="icone">🍫</div>
-          <h3>Sobremesas Nuvem</h3>
-          <p>Bolos leves e mousses aeradas com doçura na medida exata, sem excessos, apenas pura leveza.</p>
-        </div>
+        <section class="grade-produtos" aria-label="Produtos da empresa">
+            <article class="cartao-produto">
+                <img src="img/produto1.png" alt="Bolo artesanal de destaque" />
+                <h3>Bolo de chocolate</h3>
+                <p>Bolo de chocolate, recheado com brigadeiro de avelã.</p>
+                <strong>R$ 58,00</strong>
+            </article>
 
-        <div class="card-produtos">
-          <div class="icone">🧁</div>
-          <h3>Ritual do Café</h3>
-          <p>Combos exclusivos de doces, cafés e chás planejados para transformar sua tarde em um momento de pausa.</p>
-        </div>
+            <article class="cartao-produto">
+                <img src="img/produto2.png" alt="Caixa de doces finos" />
+                <h3>Brigadeiro de chocolate</h3>
+                <p>Peso médio 40g.</p>
+                <strong>R$ 72,00</strong>
+            </article>
 
-        <div class="card-produtos">
-          <div class="icone">🍪</div>
-          <h3>Gataria em Casa</h3>
-          <p>Encomendas online com entrega cuidadosa e embalagens seguras que preservam o frescor do ateliê.</p>
-        </div>
+            <article class="cartao-produto">
+                <img src="img/produto3.png" alt="Sobremesa individual" />
+                <h3>Brownie de chocolate</h3>
+                <p>Serve 1 pessoa.</p>
+                <strong>R$ 24,00</strong>
+            </article>
 
-        <div class="card-produtos">
-          <div class="icone">🍰</div>
-          <h3>Mimos & Presentes</h3>
-          <p>Caixas exclusivas montadas sob medida e finalizadas com fitas de cetim, perfeitas para gatifiar quem você ama.</p>
-        </div>
+            <article class="cartao-produto">
+                <img src="img/produto4.png" alt="Kit presenteável" />
+                <h3>Cone trufado de chocolate</h3>
+                <p>Cone trufado de chocolate, recheado de brigadeiro.</p>
+                <strong>R$ 89,00</strong>
+            </article>
+        </section>
 
-      </div>
-    </section>
+        <section class="bloco-nota">
+            <h3>Perfeito para encomendas</h3>
+            <p>
+                Os sabores da Gataria Gourmet são produzidos com cuidado artesanal, embalados com atenção e
+                preparados para manter o frescor até a entrega.
+            </p>
+            <ul>
+                <li>Produção sob encomenda para datas especiais</li>
+                <li>Entrega cuidadosa para preservar textura e apresentação</li>
+                <li>Opções de chocolate para quem busca sabor intenso</li>
+                <li>Combinações ideais para presente e mesa de celebração</li>
+            </ul>
+        </section>
+    </main>
 
-
-    <aside class="secao-lateral">
-      <h2>Como Funciona</h2>
-
-      <article>
-        <h3>1. Escolha seu Dengo</h3>
-        <p>Navegue pelo nosso menu e monte sua caixinha ou selecione suas sobremesas favoritas pelo site.</p>
-      </article>
-
-      <article>
-        <h3>2. Produção Artesanal</h3>
-        <p>Seu pedido é preparado sob medida em nosso ateliê, com ingredientes nobres e o máximo rigor técnico.</p>
-      </article>
-
-      <article>
-        <h3>3. Entrega Cuidadosa</h3>
-        <p>Embalamos seus doces com proteção anti-impacto para garantir uma apresentação impecável na sua mesa.</p>
-      </article>
-
-      <article>
-        <h3>4. O Seu Ritual</h3>
-        <p>Pronto! Agora é só desacelerar o ritmo, preparar o café e fazer a sua alma ronronar de satisfação.</p>
-      </article>
-    </aside>
-
-
-    <section class="secao-extra">
-      <h2>Formas de Pagamento</h2>
-      <p>Facilitamos a sua rotina para que nada impeça o seu momento de pausa e doçura:</p>
-      <ul class="lista-verde mt-16">
-        <li>Cartões de crédito e débito</li>
-        <li>PIX com 5% de desconto à vista</li>
-        <li>Dinheiro físico</li>
-        <li>Pagamento por aproximação</li>
-      </ul>
-    </section>
-  </main>
-
-  <footer>
-    <p>© 2026 — Gataria Gourmet. Todos os direitos reservados.</p>
-  </footer>
-
+    <footer>
+        <p>Gataria Gourmet • contato@gatariagourmet.com • (14) 99999-0000 • © 2026</p>
+    </footer>
 </body>
 
 </html>
